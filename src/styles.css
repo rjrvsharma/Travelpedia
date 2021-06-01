@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0%;
+  align-items: center;
+  padding: 1vh;
+  background: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-travel-around-the-world-travel-poster-template-image_140335.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+
+.button {
+  margin: 1rem;
+  font-size: 15px;
+  padding: 0.5rem;
+  height: 35px;
+  font-weight: bold;
+}
+
+.list-div {
+  background-color: rgba(133, 133, 133, 0.151);
+  margin: 2vw auto;
+  border-radius: 4px;
+  width: 50%;
+  height: 40px;
+  padding: 20px;
+  text-align: left;
+  font-size: larger;
+}
+
+h1 {
+  font-size: 8vh;
+  font-weight: 100%;
+}
+
+p {
+  font-size: 3vh;
+}
