@@ -23,29 +23,29 @@ function App() {
     ]
   };
 
-  var cars = Object.keys(TravelCollection);
+  var traveling = Object.keys(TravelCollection);
 
   function handlebtnClick(type) {
-    setCarsToShow(type);
+    settravelingToShow(type);
   }
 
-  const [carstoShow, setCarsToShow] = useState("SoloTravel");
+  const [travelingtoShow, settravelingToShow] = useState("SoloTravel");
   return (
     <div className="App">
       <h1>TravelPedia</h1>
       <p>Traveling Categories</p>
-      {cars.map((e) => (
+      {traveling.map((e) => (
         <button className="button" onClick={() => handlebtnClick(e)}>
           {e}
         </button>
       ))}
 
       <ul style={{ listStyle: "none" }}>
-        {TravelCollection[carstoShow].map((car) => (
+        {TravelCollection[travelingtoShow].map((traveling) => (
           <li>
             <div className="list-div">
-              {car.name}
-              <div style={{ fontSize: "smaller" }}>{car.rating}</div>
+              {traveling.name}
+              <div style={{ fontSize: "smaller" }}>{traveling.rating}</div>
             </div>
           </li>
         ))}
